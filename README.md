@@ -1,16 +1,16 @@
 # Expressões regulares
-Um estudo de regex comuns
+Expressões regulares podem salvar sua vida!
 
 ## E-mail
 - Regex valida se é e-mail
 - Valida se tem domínio
 - Valida se tem subdomínio
 
+!["Representação do regex"](https://lh3.googleusercontent.com/otJOOQ8Ite509gVNByswS0DZqRWdsKesk0XpnpbTN5Wr68sarkstc2vB9l1Q8Eb3iEag2rTC9yc7hmdr-78e5v5mz5RjatwkeLKSprCOH0kgSq4odjDQ8PX15eaqnBn_39-5FzaW9qNJcz-USLL6VMvGoDWphsvAScCbTw_wlhebpxCXy9evJMWN7kdg5ArbOe6oTgbrmw9Mi_Pjefp5lzUGEtqf4_u5_h0GxHuHK4cPZ9iVPnqeewGDu-2NmsX2wZdx_4KfN4pZTs93Nja-7siK80WsYCG2zmfpqSg1fEyUaJe__d7E1EU13lMwEFBqNbqryuFL8sywUjZhX_w8Zl79K-al4PNBoWWkt0u71gLkdUgY2c5g6F6qghOpObM0lgOUT3LkFCa9-X1Qble6TBDFWEtDKB1Q7VShkInK-37u2ZvzG5ATn9uoBJVsER61iay6Wr8XLhSHhhiMqhsrjJ8gEIFkx8orQUCNnxQddNRkOiptE9UvdsKC1nW-Uv4BJKKTD9upt3Ajb8KLsPxPSt-2WCQoQHAk4FaqaEXQI2Dski1QEogTK81R-8Z1-ee15w_F-Xlp=w1547-h547)
+
 ```
 [\w\.]+@[a-zA-Z_\-]+?\.[a-zA-Z]{2,}([\.a-zA-Z]?){3,4}
 ```
-
-!["Representação do regex"](https://lh3.googleusercontent.com/otJOOQ8Ite509gVNByswS0DZqRWdsKesk0XpnpbTN5Wr68sarkstc2vB9l1Q8Eb3iEag2rTC9yc7hmdr-78e5v5mz5RjatwkeLKSprCOH0kgSq4odjDQ8PX15eaqnBn_39-5FzaW9qNJcz-USLL6VMvGoDWphsvAScCbTw_wlhebpxCXy9evJMWN7kdg5ArbOe6oTgbrmw9Mi_Pjefp5lzUGEtqf4_u5_h0GxHuHK4cPZ9iVPnqeewGDu-2NmsX2wZdx_4KfN4pZTs93Nja-7siK80WsYCG2zmfpqSg1fEyUaJe__d7E1EU13lMwEFBqNbqryuFL8sywUjZhX_w8Zl79K-al4PNBoWWkt0u71gLkdUgY2c5g6F6qghOpObM0lgOUT3LkFCa9-X1Qble6TBDFWEtDKB1Q7VShkInK-37u2ZvzG5ATn9uoBJVsER61iay6Wr8XLhSHhhiMqhsrjJ8gEIFkx8orQUCNnxQddNRkOiptE9UvdsKC1nW-Uv4BJKKTD9upt3Ajb8KLsPxPSt-2WCQoQHAk4FaqaEXQI2Dski1QEogTK81R-8Z1-ee15w_F-Xlp=w1547-h547)
 
 Exemplos válidos:
 - git@machado.com
@@ -43,3 +43,7 @@ Exemplos válidos:
 ```
 ([0-9]{3}[\.][0-9]{3}[\.][0-9]{3}[-][0-9]{2})
 ```
+
+> **Testes**
+>
+> Teste as expressões no site http://www.regexpal.com/
